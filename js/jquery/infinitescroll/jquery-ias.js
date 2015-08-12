@@ -379,8 +379,8 @@ IASCallbacks.prototype = {
 
             promise.done(function() {
                 $(items).hide(); // at first, hide it so we can fade it in later
-
-                $lastItem.after(items);
+					console.log(items[0].childNodes)
+                $lastItem.append(items[0].childNodes);
 
                 $(items).fadeIn(400, function() {
                     // complete callback get fired for each item,
