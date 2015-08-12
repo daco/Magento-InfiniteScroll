@@ -135,7 +135,8 @@
 							SgyIAS._log({eventName:'load', event: event});
 						});
 						window.ias.on('loaded', function(data, items){
-							SgyIAS._log({eventName: 'loaded', data: data, items: items});
+							angular.bootstrap(items);
+//							SgyIAS._log({eventName: 'loaded', data: data, items: items});
 						});
 						window.ias.on('render', function(items){
 							SgyIAS._log({eventName: 'render', items: items});
