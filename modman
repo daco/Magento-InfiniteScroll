@@ -1,0 +1,17 @@
+# Module files
+app/code/community/Strategery/* app/code/community/Strategery/
+
+# Layout update file
+app/design/frontend/base/default/layout/strategery-infinitescroll.xml   app/design/frontend/base/default/layout/strategery-infinitescroll.xml
+
+# Layout template files
+app/design/frontend/base/default/template/strategery/*  app/design/frontend/base/default/template/strategery/
+
+# Enable module
+app/etc/modules/Strategery_Infinitescroll.xml   app/etc/modules/Strategery_Infinitescroll.xml
+
+# JS files
+js/jquery/*   js/jquery/
+
+# Skin files
+skin/frontend/base/default/js/infinitescroll/*  skin/frontend/base/default/js/infinitescroll/
